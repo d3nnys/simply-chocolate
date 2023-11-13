@@ -3,6 +3,8 @@
 #FD9222;  - orange
 #1E1823;  - violet
 #FFFFFF;  - white
+#FCF1E0;  - 
+#FAFAFA;  -
 
 250ms cubic-bezier(0.4, 0, 0.2, 1)
 */
@@ -14,6 +16,8 @@ body {
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.02em;
+
+  background-color: #fafafa;
 }
 
 .container {
@@ -509,6 +513,8 @@ img {
   top: 26%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  cursor: pointer;
 }
 
 .made-subtitle {
@@ -522,6 +528,8 @@ img {
 }
 
 .made-list {
+  border-radius: 15px;
+  background-color: #ffffff;
   padding: 20px;
 }
 
@@ -555,4 +563,92 @@ img {
   letter-spacing: -0.02em;
   max-width: 291px;
   color: #111;
+}
+
+/* !CHOCOLATE========== */
+
+.page-chocolate {
+  padding: 30px 0;
+}
+
+.chocolate-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-bottom: 74px;
+  color: #111111;
+}
+
+.chocolate-custom-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #fd9222;
+}
+
+.chocolate-card {
+  position: relative;
+
+  margin-bottom: 20px;
+  padding: 56px 18px 42px;
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #ffffff;
+  box-shadow: 0px 9.04932px 100px 0px rgba(17, 17, 17, 0.03);
+}
+
+.chocolate-card-img {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -54%);
+
+  border-radius: 50%;
+}
+
+.chocolate-card-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+
+  margin-bottom: 24px;
+  color: #111111;
+}
+
+.chocolate-card-text {
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.chocolate-card-img-banner {
+  margin: 0 auto 32px;
+}
+
+.chocolate-card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  min-width: 109px;
+  margin: 0 auto;
+  color: #111111;
+  background-color: transparent;
+  border-radius: 100px;
+  border: 1px solid #fd9222;
 }
