@@ -988,6 +988,10 @@ img {
 
 .page-made {
   padding: 30px 0;
+
+  @media screen and (min-width: 736px) {
+    padding: 40px 0;
+  }
 }
 
 .made-title {
@@ -999,6 +1003,13 @@ img {
 
   color: #111111;
   margin-bottom: 32px;
+
+  @media screen and (min-width: 736px) {
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    margin-bottom: 50px;
+  }
 }
 
 .made-custom-title {
@@ -1007,10 +1018,17 @@ img {
   line-height: 1.2;
   text-transform: uppercase;
   color: #fd9222;
+
+  @media screen and (min-width: 736px) {
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+  }
 }
 
 .made-img {
   position: relative;
+  max-width: 1168px;
   border-radius: 15px;
   background-image: linear-gradient(
       0deg,
@@ -1021,7 +1039,16 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+
+  @media screen and (min-width: 736px) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(../images/him-tablet.jpg);
+  }
 }
 
 .made-box {
@@ -1035,6 +1062,10 @@ img {
   transform: translate(-50%, -50%);
 
   cursor: pointer;
+
+  @media screen and (min-width: 736px) {
+    display: none;
+  }
 }
 
 .made-subtitle {
@@ -1045,12 +1076,22 @@ img {
   max-width: 307px;
   color: #111;
   margin-bottom: 20px;
+
+  @media screen and (min-width: 736px) {
+    max-width: 350px;
+  }
 }
 
 .made-list {
   border-radius: 15px;
   background-color: #ffffff;
   padding: 20px;
+
+  @media screen and (min-width: 736px) {
+    padding: 32px;
+    max-width: 614px;
+    margin: 0 auto;
+  }
 }
 
 .made-list-item {
@@ -1083,6 +1124,10 @@ img {
   letter-spacing: -0.02em;
   max-width: 291px;
   color: #111;
+
+  @media screen and (min-width: 736px) {
+    max-width: 464px;
+  }
 }
 
 /* !CHOCOLATE========== */

@@ -324,13 +324,21 @@
             how it’s <span class="made-custom-title">made?</span>
           </h2>
           <div class="made-box">
-            <img
-              class="made-img"
-              src="./images/him-mobile.jpg"
-              alt="how its made"
-              width="335"
-              height="500"
-            />
+            <picture>
+              <source srcset="./images/him-mobile.jpg 1x, ./images/him-mobile@2x.jpg 2x, ./images/him-mobile@3x.jpg 3x,"
+              media="(max-width: 735px)"
+              type="image/jpg">
+              <source srcset="./images/him-tablet.jpg 1x, ./images/him-tablet@2x.jpg 2x, ./images/him-tablet@3x.jpg 3x,"
+              media="(min-width: 736px)"
+              type="image/jpg">
+              <img
+                class="made-img"
+                src="./images/him-mobile.jpg"
+                alt="how its made"
+                width="600"
+                height="400"
+              />
+            </picture>
             <svg class="made-box-icon" width="35" height="35">
               <use href="./images/icons.svg#icon-play"></use>
             </svg>
