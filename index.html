@@ -34,13 +34,13 @@
             </a>
             <ul class="header-nav-list">
               <li class="header-nav-list-item">
-                <a class="header-nav-list-item-link" href="">Home</a>
+                <a class="header-nav-list-item-link" href="./index.html">Home</a>
               </li>
               <li class="header-nav-list-item">
-                <a class="header-nav-list-item-link" href="">How it’s made?</a>
+                <a class="header-nav-list-item-link" href="#him">How it’s made?</a>
               </li>
               <li class="header-nav-list-item">
-                <a class="header-nav-list-item-link" href=""
+                <a class="header-nav-list-item-link" href="#loved"
                   >Chocolate is loved</a
                 >
               </li>
@@ -110,7 +110,7 @@
           </div>
         </div>
       </section>
-      <section class="page-about">
+      <section class="page-about" id="">
         <div class="container">
           <h2 class="about-title visually-hidden">About us</h2>
           <ul class="about-list">
@@ -160,7 +160,7 @@
           </ul>
         </div>
       </section>
-      <section class="page-taste">
+      <section class="page-taste" id="products">
         <div class="container">
           <h2 class="taste-title">
             it all adds up to one exceptional
@@ -173,49 +173,71 @@
             step of our process adds up to one exceptional taste sensation.
           </p>
           <ul class="taste-list">
-            <li class="taste-list-item">
+            <li class="flip-card">
+  <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <picture>
+              <source srcset="./images/chocomilk-mobile.png 1x, ./images/chocomilk-mobile@2x.png 2x, ./images/chocomilk-mobile@3x.png 3x,"
+              media="(max-width: 1167px)"
+              type="image/png">
+              <source srcset="./images/chocomilk-desktop.png 1x, ./images/chocomilk-desktop@2x.png 2x, ./images/chocomilk-desktop@3x.png 3x,"
+              media="(min-width: 1168px)"
+              type="image/png">
               <img
                 class="taste-list-item-img"
-                src="./images/chocomilk-mobile.png"
+                src="./images/chocomilk-desktop.png"
                 alt="milk chocolate"
-                width="224"
-                height="171"
+                width="206"
+                height="160"
               />
-              <p class="taste-list-item-text">milk chocolate</p>
-              <div class="taste-hidden-box">
-                <h3 class="taste-hidden-box-title">milk chocolate</h3>
-                <ul class="taste-hidden-box-list">
-                  <li class="taste-hidden-box-list-item">
-                    <button class="taste-hidden-box-list-item-btn" type="button">
-                      chocolate
-                    </button>
-                  </li>
-                  <li class="taste-hidden-box-list">
-                    <button
-                      class="taste-hidden-box-list-item-btn second-btn"
-                      type="button"
-                    >
-                      the benefits
-                    </button>
-                  </li>
-                </ul>
-                <p class="taste-hidden-box-text">
-                  Milk chocolate is a solid chocolate confectionery containing
-                  cocoa, sugar and milk. It is the most consumed type of
-                  chocolate. Chocolate was originally sold and consumed as a
-                  beverage in pre-Columbian times. Although four-fifths of all
-                  milk chocolate is sold in the United States and Europe.
-                </p>
-              </div>
-            </li>
+            </picture>
+          <p class="taste-list-item-text">milk chocolate</p>
+      </div>
+      <div class="flip-card-back">
+         <h3 class="taste-hidden-box-title">milk chocolate</h3>
+              <ul class="taste-hidden-box-list">
+                <li class="taste-hidden-box-list-item">
+                  <button class="taste-hidden-box-list-item-btn" type="button">
+                    chocolate
+                  </button>
+                </li>
+                <li class="taste-hidden-box-list">
+                  <button
+                    class="taste-hidden-box-list-item-btn second-btn"
+                    type="button"
+                  >
+                    the benefits
+                  </button>
+                </li>
+              </ul>
+              <p class="taste-hidden-box-text">
+                Milk chocolate is a solid chocolate confectionery containing
+                cocoa, sugar and milk. It is the most consumed type of
+                chocolate. Chocolate was originally sold and consumed as a
+                beverage in pre-Columbian times. Although four-fifths of all
+                milk chocolate is sold in the United States and Europe.
+              </p>
+      </div>
+  </div>
+</li>
+            
+                 
             <li class="taste-list-item">
-              <img
-                class="taste-list-item-img"
-                src="./images/milk-mobile.png"
-                alt="milk"
-                width="224"
-                height="171"
-              />
+              <picture>
+                <source srcset="./images/milk-mobile.png 1x, ./images/milk-mobile@2x.png 2x, ./images/milk-mobile@3x.png 3x,"
+                media="(max-width: 1167px)"
+                type="image/png">
+                <source srcset="./images/milk-desktop.png 1x, ./images/milk-desktop@2x.png 2x, ./images/milk-desktop@3x.png 3x,"
+                media="(min-width: 1168px)"
+                type="image/png">
+                <img
+                  class="taste-list-item-img"
+                  src="./images/milk-desktop.png"
+                  alt="milk"
+                  width="206"
+                  height="160"
+                />
+              </picture>
               <p class="taste-list-item-text even-text">milk</p>
               <div class="taste-hidden-box">
                 <h3 class="taste-hidden-box-title">milk</h3>
@@ -245,13 +267,21 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-list-item-img"
-                src="./images/nuts-mobile.png"
-                alt="nuts"
-                width="224"
-                height="171"
-              />
+              <picture>
+                <source srcset="./images/nuts-mobile.png 1x, ./images/nuts-mobile@2x.png 2x, ./images/nuts-mobile@3x.png 3x,"
+                media="(max-width: 1167px)"
+                type="image/png">
+                <source srcset="./images/nuts-desktop.png 1x, ./images/nuts-desktop@2x.png 2x, ./images/nuts-desktop@3x.png 3x,"
+                media="(min-width: 1168px)"
+                type="image/png">
+                <img
+                  class="taste-list-item-img"
+                  src="./images/nuts-desktop.png"
+                  alt="nuts"
+                  width="206"
+                  height="160"
+                />
+              </picture>
               <p class="taste-list-item-text">nuts</p>
               <div class="taste-hidden-box">
                 <h3 class="taste-hidden-box-title">Nuts</h3>
@@ -281,13 +311,21 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-list-item-img"
-                src="./images/coffee-beans-mobile.png"
-                alt="coffee beans"
-                width="224"
-                height="171"
-              />
+              <picture>
+                <source srcset="./images/coffee-beans-mobile.png 1x, ./images/coffee-beans-mobile@2x.png 2x, ./images/coffee-beans-mobile@3x.png 3x,"
+                media="(max-width: 1167px)"
+                type="image/png">
+                <source srcset="./images/coffee-beans-desktop.png 1x, ./images/coffee-beans-desktop@2x.png 2x, ./images/coffee-beans-desktop@3x.png 3x,"
+                media="(min-width: 1168px)"
+                type="image/png">
+                <img
+                  class="taste-list-item-img"
+                  src="./images/coffee-beans-desktop.png"
+                  alt="coffee beans"
+                  width="206"
+                  height="160"
+                />
+              </picture>
               <p class="taste-list-item-text even-text">semi - sweet chocolate</p>
               <div class="taste-hidden-box">
                 <h3 class="taste-hidden-box-title">semi - sweet chocolate</h3>
@@ -319,30 +357,35 @@
           </ul>
         </div>
       </section>
-      <section class="page-made">
+      <section class="page-made" id="him">
         <div class="container">
           <h2 class="made-title">
             how it’s <span class="made-custom-title">made?</span>
           </h2>
           <div class="made-box">
-            <picture>
+            <div class="made-img-box">
+            <!-- <picture>
               <source srcset="./images/him-mobile.jpg 1x, ./images/him-mobile@2x.jpg 2x, ./images/him-mobile@3x.jpg 3x,"
               media="(max-width: 735px)"
               type="image/jpg">
               <source srcset="./images/him-tablet.jpg 1x, ./images/him-tablet@2x.jpg 2x, ./images/him-tablet@3x.jpg 3x,"
               media="(min-width: 736px)"
               type="image/jpg">
+              <source srcset="./images/him-desktop.jpg 1x, ./images/him-desktop@2x.jpg 2x, ./images/him-desktop@3x.jpg 3x,"
+              media="(min-width: 1168px)"
+              type="image/jpg">
               <img
                 class="made-img"
-                src="./images/him-mobile.jpg"
+                src="./images/him-desktop.jpg"
                 alt="how its made"
-                width="335"
+                width="600"
                 height="400"
               />
-            </picture>
-            <svg class="made-box-icon" width="35" height="35">
-              <use href="./images/icons.svg#icon-play"></use>
-            </svg>
+            </picture> -->
+              <svg class="made-box-icon" width="35" height="35">
+                <use href="./images/icons.svg#icon-play"></use>
+              </svg>
+            </div>
             <ul class="made-list">
               <li>
                 <h3 class="made-subtitle">
@@ -382,7 +425,7 @@
           </ul>
         </div>
       </section>
-      <section class="page-chocolate">
+      <section class="page-chocolate" id="loved">
         <div class="container">
           <h2 class="chocolate-title"><span class="chocolate-custom-title">chocolate</span> is loved</h2>
           <ul class="chocolate-list">
@@ -424,11 +467,11 @@
         <div class="nav-box">
           <nav class="footer-nav">
             <ul class="footer-nav-list">
-              <li class="footer-nav-list-item"><a class="footer-nav-list-item-link" href="">Home</a></li>
-              <li class="footer-nav-list-item "><a class="footer-nav-list-item-link" href="">How it’s made?</a></li>
-              <li class="footer-nav-list-item hidden"><a class="footer-nav-list-item-link" href="">Our products</a></li>
-              <li class="footer-nav-list-item hidden"><a class="footer-nav-list-item-link" href="">Top sellers</a></li>
-              <li class="footer-nav-list-item"><a class="footer-nav-list-item-link" href="">Chocolate is loved</a></li>
+              <li class="footer-nav-list-item"><a class="footer-nav-list-item-link" href="./index.html">Home</a></li>
+              <li class="footer-nav-list-item "><a class="footer-nav-list-item-link" href="#him">How it’s made?</a></li>
+              <li class="footer-nav-list-item hidden"><a class="footer-nav-list-item-link" href="#products">Our products</a></li>
+              <li class="footer-nav-list-item hidden"><a class="footer-nav-list-item-link" href="#sellers">Top sellers</a></li>
+              <li class="footer-nav-list-item"><a class="footer-nav-list-item-link" href="#loved">Chocolate is loved</a></li>
             </ul>
           </nav>
           <form class="footer-form">
