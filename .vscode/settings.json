@@ -1,5 +1,14 @@
 {
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "cSpell.words": [
+        "Babenko",
+        "chocomilk",
+        "Dobrzhanska",
+        "favourite",
+        "Kampusch",
+        "Nazar",
+        "Olena"
+    ]
 }
