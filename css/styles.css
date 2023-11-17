@@ -992,6 +992,12 @@ img {
   }
 }
 
+@media screen and (min-width: 736px) and (max-width: 1167px) {
+  .nuts {
+    order: 4;
+  }
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
