@@ -263,7 +263,7 @@ img {
   flex-direction: column;
 
   padding-top: 136px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   padding-left: 20px;
 
   @media screen and (min-width: 736px) {
@@ -361,8 +361,8 @@ img {
   transform: translate(-50%, -50%);
 
   padding: 32px 24px;
-  width: 90%;
-  max-width: 517px;
+  width: clamp(311px, 90%, 517px);
+  /* max-width: 517px; */
   border-radius: 15px;
   background: #fafafa;
 }
