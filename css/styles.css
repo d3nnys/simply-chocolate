@@ -600,6 +600,9 @@ img {
   max-width: 1168px;
   padding: 395px 20px 21px 20px;
   border-radius: 30px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   background-image: linear-gradient(
       180deg,
@@ -607,9 +610,18 @@ img {
       rgba(17, 17, 17, 0.4) 100%
     ),
     url(../images/hero-bg-mobile.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    image-set('../images/hero-bg-mobile.webp');
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    -webkit-image-set('../images/hero-bg-mobile.webp');
 
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
@@ -620,6 +632,21 @@ img {
         rgba(17, 17, 17, 0.4) 100%
       ),
       url(../images/hero-bg-mobile@2x.jpg);
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      image-set(
+        '../images/hero-bg-mobile@2x.webp',
+        '../images/hero-bg-mobile@2x.jpg'
+      );
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      -webkit-image-set('../images/hero-bg-mobile@2x.webp', '../images/hero-bg-mobile@2x.jpg');
   }
 
   @media screen and (min-resolution: 288dpi),
@@ -631,6 +658,21 @@ img {
         rgba(17, 17, 17, 0.4) 100%
       ),
       url(../images/hero-bg-mobile@3x.jpg);
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      image-set(
+        '../images/hero-bg-mobile@3x.webp',
+        '../images/hero-bg-mobile@3x.jpg'
+      );
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      -webkit-image-set('../images/hero-bg-mobile@3x.webp', '../images/hero-bg-mobile@3x.jpg');
   }
 
   @media screen and (min-width: 736px) {
@@ -640,6 +682,18 @@ img {
         rgba(17, 17, 17, 0.4) 100%
       ),
       url(../images/hero-bg-tablet.jpg);
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      image-set('../images/hero-bg-tablet.webp');
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      -webkit-image-set('../images/hero-bg-tablet.webp');
     padding: 671px 40px 40px;
 
     @media screen and (min-resolution: 192dpi),
@@ -651,6 +705,21 @@ img {
           rgba(17, 17, 17, 0.4) 100%
         ),
         url(../images/hero-bg-tablet@2x.jpg);
+      background-image: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        image-set(
+          '../images/hero-bg-tablet@2x.webp',
+          '../images/hero-bg-tablet@2x.jpg'
+        );
+      background-image: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        -webkit-image-set('../images/hero-bg-tablet@2x.webp', '../images/hero-bg-tablet@2x.jpg');
     }
 
     @media screen and (min-resolution: 288dpi),
@@ -662,6 +731,14 @@ img {
           rgba(17, 17, 17, 0.4) 100%
         ),
         url(../images/hero-bg-tablet@3x.jpg);
+      background-image: image-set(
+        '../images/hero-bg-tablet@3x.webp',
+        '../images/hero-bg-tablet@3x.jpg'
+      );
+      background-image: -webkit-image-set(
+        '../images/hero-bg-tablet@3x.webp',
+        '../images/hero-bg-tablet@3x.jpg'
+      );
     }
   }
 
@@ -672,6 +749,8 @@ img {
         rgba(17, 17, 17, 0.4) 100%
       ),
       url(../images/hero-bg-desktop.jpg);
+    background-image: image-set('../images/hero-bg-desktop.webp');
+    background-image: -webkit-image-set('../images/hero-bg-desktop.webp');
 
     @media screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx),
@@ -682,6 +761,21 @@ img {
           rgba(17, 17, 17, 0.4) 100%
         ),
         url(../images/hero-bg-desktop@2x.jpg);
+      background-image: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        image-set(
+          '../images/hero-bg-desktop@2x.webp',
+          '../images/hero-bg-desktop@2x.jpg'
+        );
+      background-image: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        -webkit-image-set('../images/hero-bg-desktop@2x.webp', '../images/hero-bg-desktop@2x.jpg');
     }
 
     @media screen and (min-resolution: 288dpi),
@@ -693,6 +787,21 @@ img {
           rgba(17, 17, 17, 0.4) 100%
         ),
         url(../images/hero-bg-desktop@3x.jpg);
+      background-image: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        image-set(
+          '../images/hero-bg-desktop@3x.webp',
+          '../images/hero-bg-desktop@3x.jpg'
+        );
+      background-image: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        -webkit-image-set('../images/hero-bg-desktop@3x.webp', '../images/hero-bg-desktop@3x.jpg');
     }
   }
 }
@@ -1304,16 +1413,28 @@ img {
   width: 335px;
   height: 500px;
   border-radius: 15px;
+  margin: 0 auto 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
     url(../images/him-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  margin: 0 auto 20px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    image-set('../images/him-mobile.webp');
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    -webkit-image-set('../images/him-mobile.webp');
 
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
@@ -1324,6 +1445,18 @@ img {
         rgba(0, 0, 0, 0.4) 100%
       ),
       url(../images/him-mobile@2x.jpg);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      image-set('../images/him-mobile@2x.webp');
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      -webkit-image-set('../images/him-mobile@2x.webp');
   }
 
   @media screen and (min-resolution: 288dpi),
@@ -1335,6 +1468,18 @@ img {
         rgba(0, 0, 0, 0.4) 100%
       ),
       url(../images/him-mobile@3x.jpg);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      image-set('../images/him-mobile@3x.webp');
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      -webkit-image-set('../images/him-mobil@3x.webp');
   }
 
   @media screen and (min-width: 736px) {
@@ -1346,6 +1491,18 @@ img {
         rgba(0, 0, 0, 0.4) 100%
       ),
       url(../images/him-tablet.jpg);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      image-set('../images/him-tablet.webp');
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      -webkit-image-set('../images/him-tablet.webp');
 
     @media screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx),
@@ -1356,6 +1513,18 @@ img {
           rgba(0, 0, 0, 0.4) 100%
         ),
         url(../images/him-tablet@2x.jpg);
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        image-set('../images/him-tablet@2x.webp');
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        -webkit-image-set('../images/him-tablet@2x.webp');
     }
 
     @media screen and (min-resolution: 288dpi),
@@ -1367,6 +1536,18 @@ img {
           rgba(0, 0, 0, 0.4) 100%
         ),
         url(../images/him-tablet@3x.jpg);
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        image-set('../images/him-tablet@3x.webp');
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        -webkit-image-set('../images/him-tablet@3x.webp');
     }
   }
 
@@ -1379,6 +1560,18 @@ img {
         rgba(0, 0, 0, 0.4) 100%
       ),
       url(../images/him-desktop.jpg);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      image-set('../images/him-desktop.webp');
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      -webkit-image-set('../images/him-desktop.webp');
 
     @media screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx),
@@ -1389,6 +1582,18 @@ img {
           rgba(0, 0, 0, 0.4) 100%
         ),
         url(../images/him-desktop@2x.jpg);
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        image-set('../images/him-desktop@2x.webp');
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        -webkit-image-set('../images/him-desktop@2x.webp');
     }
 
     @media screen and (min-resolution: 288dpi),
@@ -1400,6 +1605,18 @@ img {
           rgba(0, 0, 0, 0.4) 100%
         ),
         url(../images/him-desktop@3x.jpg);
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        image-set('../images/him-desktop@3x.webp');
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        ),
+        -webkit-image-set('../images/him-desktop@3x.webp');
     }
   }
 }

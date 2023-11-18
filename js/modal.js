@@ -5,7 +5,7 @@
 //     modal: document.querySelector('[data-modal]'),
 //   };
 
-//   refs.openModalBtn.forEach((element) => {
+//   refs.openModalBtn.forEach(element => {
 //     element.addEventListener('click', toggleModal);
 //   });
 //   refs.closeModalBtn.addEventListener('click', toggleModal);
