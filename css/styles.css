@@ -362,7 +362,6 @@ img {
 
   padding: 32px 24px;
   width: clamp(311px, 90%, 517px);
-  /* max-width: 517px; */
   border-radius: 15px;
   background: #fafafa;
 }
@@ -1122,7 +1121,7 @@ img {
 
 .flip-card-front,
 .flip-card-back {
-  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2); */
   position: absolute;
   /* display: flex;
   flex-direction: column;
