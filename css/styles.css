@@ -942,7 +942,7 @@ img {
   }
 }
 
-.hero-scroll-box-link {
+.hero-scroll-box-text {
   color: var(--clr-white);
   font-size: 14px;
   font-style: normal;
@@ -950,6 +950,7 @@ img {
   line-height: 1.28;
   letter-spacing: -0.03em;
   transition: color var(--tns-cubic);
+  cursor: default;
 
   &:focus,
   &:hover {
