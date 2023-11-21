@@ -238,7 +238,8 @@ img {
   height: 100dvh;
   padding-top: 136px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: clamp(20px, 20vw, 15%);
+  padding-right: clamp(20px, 20vw, 15%);
   background-color: var(--clr-violet);
 
   display: grid;
@@ -258,10 +259,10 @@ img {
     transform: translateX(0%);
   }
 
-  @media screen and (min-width: 550px) {
+  /* @media screen and (min-width: 550px) {
     padding-left: 80px;
     padding-right: 60px;
-  }
+  } */
 
   @media screen and (min-width: 736px) {
     display: none;
