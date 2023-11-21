@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/chocolate.png" />
     <title>Simply Chocolate</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,83 +22,81 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <header class="page-header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-nav-link-logo" href="#"
+            ><span class="header-nav-logo-text">SIMPLY</span> CHOCOLATE
+          </a>
+          <a class="header-nav-link-logo-bar" href="#">
+            <svg
+              class="header-nav-logo-icon"
+              width="21"
+              height="21"
+              aria-label="logo icon"
+            >
+              <use href="./images/icons.svg#icon-choco-logo"></use>
+            </svg>
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a class="header-nav-list-item-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-list-item-link" href="#him"
+                >How it’s made?</a
+              >
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-list-item-link" href="#loved"
+                >Chocolate is loved</a
+              >
+            </li>
+          </ul>
+          <button class="header-btn-burger js-open-menu" type="button">
+            <svg
+              class="header-btn-icon"
+              width="21"
+              height="14"
+              aria-label="burger icon"
+            >
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+          <ul class="header-social-list">
+            <li class="header-social-list-item">
+              <a
+                class="header-social-list-item-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><svg
+                  aria-label="instagram icon"
+                  class="header-social-list-item-link-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="header-social-list-item">
+              <a
+                class="header-social-list-item-link"
+                href="https://twitter.com/?lang=ru"
+                target="_blank"
+                ><svg
+                  aria-label="twitter icon"
+                  class="header-social-list-item-link-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
-      <header class="page-header">
-        <div class="container">
-          <nav class="header-nav">
-            <a class="header-nav-link-logo" href="#"
-              ><span class="header-nav-logo-text">SIMPLY</span> CHOCOLATE
-            </a>
-            <a class="header-nav-link-logo-bar" href="#">
-              <svg
-                class="header-nav-logo-icon"
-                width="21"
-                height="21"
-                aria-label="logo icon"
-              >
-                <use href="./images/icons.svg#icon-choco-logo"></use>
-              </svg>
-            </a>
-            <ul class="header-nav-list">
-              <li class="header-nav-list-item">
-                <a class="header-nav-list-item-link" href="./index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="header-nav-list-item">
-                <a class="header-nav-list-item-link" href="#him"
-                  >How it’s made?</a
-                >
-              </li>
-              <li class="header-nav-list-item">
-                <a class="header-nav-list-item-link" href="#loved"
-                  >Chocolate is loved</a
-                >
-              </li>
-            </ul>
-            <button class="header-btn-burger js-open-menu" type="button">
-              <svg
-                class="header-btn-icon"
-                width="21"
-                height="14"
-                aria-label="burger icon"
-              >
-                <use href="./images/icons.svg#icon-burger"></use>
-              </svg>
-            </button>
-            <ul class="header-social-list">
-              <li class="header-social-list-item">
-                <a
-                  class="header-social-list-item-link"
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  ><svg
-                    aria-label="instagram icon"
-                    class="header-social-list-item-link-icon"
-                    width="24"
-                    height="24"
-                  >
-                    <use href="./images/icons.svg#icon-instagram"></use></svg
-                ></a>
-              </li>
-              <li class="header-social-list-item">
-                <a
-                  class="header-social-list-item-link"
-                  href="https://twitter.com/?lang=ru"
-                  target="_blank"
-                  ><svg
-                    aria-label="twitter icon"
-                    class="header-social-list-item-link-icon"
-                    width="24"
-                    height="24"
-                  >
-                    <use href="./images/icons.svg#icon-twitter"></use></svg
-                ></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
       <section class="page-hero">
         <div class="container">
           <div class="hero-bg">
@@ -884,69 +883,67 @@
       </div>
     </footer>
     <div class="mobile-menu js-menu-container">
-      <div class="container">
-        <button class="mobile-menu-btn js-close-menu" type="button">
-          <svg
-            class="mobile-menu-btn-icon"
-            width="28"
-            height="28"
-            aria-label="close icon"
-          >
-            <use href="./images/icons.svg#icon-x"></use>
-          </svg>
-        </button>
-        <nav class="mobile-nav">
-          <ul class="mobile-nav-list">
-            <li class="mobile-nav-list-item">
-              <a class="mobile-nav-list-item-link current" href="">Home</a>
-            </li>
-            <li class="mobile-nav-list-item">
-              <a class="mobile-nav-list-item-link" href="#him"
-                >How it’s made?</a
-              >
-            </li>
-            <li class="mobile-nav-list-item">
-              <a class="mobile-nav-list-item-link" href="#loved"
-                >Chocolate is loved</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <ul class="mobile-social-list">
-          <li class="mobile-social-list-item">
-            <a
-              class="mobile-social-list-item-link"
-              href="https://www.instagram.com/"
-              target="_blank"
-            >
-              <svg
-                class="mobile-social-icon"
-                width="22"
-                height="22"
-                aria-label="instagram icon"
-              >
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
+      <!-- <div class="container"> -->
+      <button class="mobile-menu-btn js-close-menu" type="button">
+        <svg
+          class="mobile-menu-btn-icon"
+          width="28"
+          height="28"
+          aria-label="close icon"
+        >
+          <use href="./images/icons.svg#icon-x"></use>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-list-item">
+            <a class="mobile-nav-list-item-link current" href="">Home</a>
           </li>
-          <li class="mobile-social-list-item">
-            <a
-              class="mobile-social-list-item-link"
-              href="https://twitter.com/"
-              target="_blank"
+          <li class="mobile-nav-list-item">
+            <a class="mobile-nav-list-item-link" href="#him">How it’s made?</a>
+          </li>
+          <li class="mobile-nav-list-item">
+            <a class="mobile-nav-list-item-link" href="#loved"
+              >Chocolate is loved</a
             >
-              <svg
-                class="mobile-social-icon"
-                width="20"
-                height="20"
-                aria-label="twitter icon"
-              >
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
           </li>
         </ul>
-      </div>
+      </nav>
+      <ul class="mobile-social-list">
+        <li class="mobile-social-list-item">
+          <a
+            class="mobile-social-list-item-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <svg
+              class="mobile-social-icon"
+              width="22"
+              height="22"
+              aria-label="instagram icon"
+            >
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-list-item">
+          <a
+            class="mobile-social-list-item-link"
+            href="https://twitter.com/"
+            target="_blank"
+          >
+            <svg
+              class="mobile-social-icon"
+              width="20"
+              height="20"
+              aria-label="twitter icon"
+            >
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <!-- </div> -->
     </div>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
