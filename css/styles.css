@@ -248,11 +248,14 @@ img {
   visibility: hidden;
   pointer-events: none;
   z-index: 9999;
+  transform: translateX(100%);
+  transition: transform var(--tns-cubic);
 
   &.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
+    transform: translateX(0%);
   }
 
   @media screen and (min-width: 550px) {
